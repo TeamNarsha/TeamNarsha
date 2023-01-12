@@ -18,25 +18,31 @@
     color: rgb(58, 54, 54);
 }
 #key_style_01{
-    background-color: lemonchiffon;
+    background-color: rgb(250, 247, 216);
     width: 100%;
+    border: 0;
 }
 #key_style_02{
-    background-color: lightblue;
+    background-color: rgb(190, 218, 227);
     width: 100%;
+    border: 0;
 }
 #key_style_03{
-    background-color: pink;
+    background-color: rgb(250, 215, 221);
     width: 100%;
+    border: 0;
 }
 #key_style_04{
-    background-color: lightsalmon;
+    background-color: rgb(255, 191, 166);
     width: 100%;
+    border: 0;
 }
 
 .small_title{
-    background-color: rgb(212, 211, 211);
+    background-color: rgb(169, 167, 167);
     font-weight: bold;
+    height: 30px;
+    padding: 15px;
 
 }
 
