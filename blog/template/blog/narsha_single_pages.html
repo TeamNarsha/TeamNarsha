@@ -28,23 +28,22 @@
         {% for p in post %}
         <div class="container">
             <div class="row my-13">
-                <div class="col-5">
+                <div class="col-6">
                     <div class="box" style="background: #ffffff;">
                         <img class="profile" src="{{ p.head_image.url}}">
                     </div>
                 </div>
-                <div class="col-7">
-                    <hr>
+                <div class="col-6">
+                    <br><br><br><br><br><br><br><br><br><br>
                     <br><br><br>
-                    <h3 id="main_name"> {{p.name}}의 프로필</h3>
-                    <pre class="self_simple">     "   {{p.simple}}   "</pre>
-                    <p class="github">GitHub <i>{{post.gh}}</i> </p><br><br>
-                    <hr>
+                    <h3 id="main_name">          {{p.name}}의 프로필</h3>
+                    <pre class="self_simple">             "   {{p.simple}}   "</pre>
+                    <p class="github">           GitHub <i>{{post.gh}}</i> </p><br><br>
+                    <br><br><br><br><br><br><br><br>
                 </div>
             </div>  
         </div>
         <div class="container">
-            <hr>
             <div class="row my-13">
                 <h3 class="small_title">KEYWORD</h3> 
                 <div class="col-6">
@@ -56,26 +55,23 @@
                     <input id="key_style_04"  type="button" value ="{{ p.k_04 }}"><br>  
                 </div>
             </div>
-            <hr>
+            <br>
         </div>
         <div class="container">
-            <hr>
             <div class="row my-13">
                 <h3 class="small_title">AVAILABLITY</h3>        
             </div>
             <p>{{p.ability}}</p>
-            <hr>
+            
         </div>
         <div class="container">
-            <hr>
             <div class="row my-13">
                 <h3 class="small_title">WAY OF THE PAST</h3>        
             </div>
             <p>{{p.past}}</p>
-            <hr>
+            
         </div>
         <div class="container">
-            <hr>
             <div class="row my-10">
                 <h3 class="small_title">WAY OF FUTUER</h3>        
             </div>
