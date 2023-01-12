@@ -1,4 +1,5 @@
 from django.db import models
+from markdownx.models import MarkdownxField
 
 # Create your models here.
 class Post(models.Model):
@@ -11,7 +12,9 @@ class Post(models.Model):
     k_02 = models.CharField(max_length=20)
     k_03 = models.CharField(max_length=20)
     k_04 = models.CharField(max_length=20)
-    ability = models.CharField(max_length=20)
+    ability = MarkdownxField()
+    past = MarkdownxField()
+    future = MarkdownxField()
         
     def __str__(self):
         return f'[{self.pk}] {self.title}'
