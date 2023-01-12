@@ -4,6 +4,9 @@
         <meta charset = 'UTF-8'>
         
         <title>Blog</title> 
+
+        <link rel="stylesheet" href="blog\css\blog.css" type="text/css">
+
     </head>
     <body>
         <div>
@@ -11,7 +14,7 @@
             <p>빅데이터 분석가를 꿈꾸는 팀 NARSHA입니다. </p>
         </div>
         
-        <button>Process</button>
+        <button> <a href = ''> Process</button>
         <br><br>
         {% for p in posts %}
             <button> <a href = {{p.get_absolute_url}}> {{p.title}} </a></button>
