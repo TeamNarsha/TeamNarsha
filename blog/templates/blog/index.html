@@ -9,16 +9,18 @@
 
     </head>
     <body>
-        
-        <h1>NARSHA</h1>
-        <p>빅데이터 분석가를 꿈꾸는 팀 NARSHA입니다. </p>
-        
-        <div id = 'bt_box'>  
-            <button class = 'bt' > <a href = ''> Process</button>
-            <br><br>
-            {% for p in post %} 
-                <button class = 'bt'> <a href = {{p.get_absolute_url}}> {{p.title}} </a> </button>
-            {% endfor %}
+        <div class = 'container'>
+            <div class = 'row'
+            <h1>NARSHA</h1>
+            <p>빅데이터 분석가를 꿈꾸는 팀 NARSHA입니다. </p>
+            
+            <div id = 'bt_box'>  
+                <button class = 'bt' > <a href = ''> Process</button>
+                <br><br>
+                {% for p in post %} 
+                    <button class = 'bt'> <a href = {{p.get_absolute_url}}> {{p.title}} </a> </button>
+                {% endfor %}
+            </div>
         </div>
 
 
