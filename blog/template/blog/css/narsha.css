@@ -18,31 +18,31 @@
     color: rgb(58, 54, 54);
 }
 #key_style_01{
-    background-color: rgb(250, 247, 216);
+    background-color: rgba(250, 247, 216, 0.508);
     width: 100%;
     border: 0;
 }
 #key_style_02{
-    background-color: rgb(190, 218, 227);
+    background-color: rgba(190, 218, 227, 0.41);
     width: 100%;
     border: 0;
 }
 #key_style_03{
-    background-color: rgb(250, 215, 221);
+    background-color: rgba(250, 215, 221, 0.503);
     width: 100%;
     border: 0;
 }
 #key_style_04{
-    background-color: rgb(255, 191, 166);
+    background-color: rgba(255, 191, 166, 0.475);
     width: 100%;
     border: 0;
 }
 
 .small_title{
-    background-color: rgb(169, 167, 167);
+    background-color: rgba(222, 222, 222, 0.73);
     font-weight: bold;
-    height: 30px;
-    padding: 15px;
+    height: 50px;
+    padding: 5px;
 
 }
 
