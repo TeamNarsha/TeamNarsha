@@ -3,7 +3,7 @@ from .models import Post
 
 # Create your views here.
 def index(request):
-    posts = Post.objects.all().order_by('-pk')
+    posts = Post.objects.all()
 
     return render(request, 
         'blog/index.html',
@@ -11,13 +11,13 @@ def index(request):
             'posts' : posts
         })
 
-def single_post_page(request,value):
+def narsha_single_pages(request,value):
     post=Post.objects.get(pk=value)
 
     return render(
         request,
         'blog/narsha_single_pages.html',
         {
-        'post' : post,
+            'post' : post,
         }
     )
