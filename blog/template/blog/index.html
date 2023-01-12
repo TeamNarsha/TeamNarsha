@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = 'ko'>
+    <head>
+        <meta charset = 'UTF-8'>
+        <title>Blog</title> 
+    </head>
+    <body>
+        <div>
+            <h1>NARSHA</h1>
+            <p>빅데이터 분석가를 꿈꾸는 팀 NARSHA입니다. </p>
+        </div>
+        
+        <button>Process</button>
+        <br><br>
+        {% for p in posts %}
+            <button> <a href = {{p.get_absolute_url}}> {{p.title}}</a></button>
+        {% endfor %}
+        
+
+
+
+
+
+
+
+
+    </body>
+</html>
