@@ -12,7 +12,10 @@ class Post(models.Model):
     k_02 = models.CharField(max_length=20)
     k_03 = models.CharField(max_length=20)
     k_04 = models.CharField(max_length=20)
-
+    ability = models.TextField()
+    past = models.TextField()
+    future = models.TextField()
+    
     def __str__(self):
         return f'[{self.pk}] {self.title}'
 
