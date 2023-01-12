@@ -16,10 +16,8 @@
         
         <button> <a href = ''> Process</button>
         <br><br>
-        {% for p in post %}
-            <button> 
-                <a href = {{p.get_absolute_url}}> {{p.title}} </a>
-            </button>
+        {% for p in post %} 
+            <button> <a href = {{p.get_absolute_url}}> {{p.title}} </a> </button>
         {% endfor %}
         
 
