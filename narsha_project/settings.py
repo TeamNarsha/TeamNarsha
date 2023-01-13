@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'blog',
-    'single_pages',
+    'narsha_project',
     
 ]
 
@@ -124,10 +124,14 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = "static/"
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-) 
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',]
+ 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+print('base_dir: ', BASE_DIR)
+print('staticfiles_dirs: ', STATICFILES_DIRS)
