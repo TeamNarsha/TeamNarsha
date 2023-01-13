@@ -3,10 +3,8 @@
     height: 300px; 
     border-radius: 70%;
     overflow: hidden;
-    display: flex;
-    align-items: center; /* 수직 정렬 */
-    flex-direction: row; /* default: row */
-    justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+    top:50%; left:50%;
+    margin-top:-20px; margin-left:100px; 
 }
 .profile {
     width: 100%;
@@ -59,7 +57,6 @@
 
 
 }
-
 
 
 
