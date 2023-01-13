@@ -126,7 +126,9 @@ USE_TZ = False
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',]
+    os.path.join(BASE_DIR, 'blog', 'static')]
+
+STATIC_ROOT = os.path.join('staicfiles')
  
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
