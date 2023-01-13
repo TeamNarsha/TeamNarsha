@@ -18,7 +18,7 @@
                 </div>
 
                 <div id='bt_box' class='col-5'>  
-                    <button class='bt'> <a href='blog\templates\blog\index.html'> Process</button>
+                    <button class='bt'> <a href='blog\templates\blog\index.html'>Process</button>
                     <br><br>
                     {% for p in posts %} 
                         <button class='bt'><a href='{{ p.get_absolute_url }}'>{{ p.title }}</a></button>
