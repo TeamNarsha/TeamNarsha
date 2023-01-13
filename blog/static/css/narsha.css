@@ -3,15 +3,16 @@
     height: 300px; 
     border-radius: 70%;
     overflow: hidden;
+    display: flex;
+    align-items: center; /* 수직 정렬 */
+    flex-direction: row; /* default: row */
+    justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
 }
 .profile {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: flex;
-    align-items: center; /* 수직 정렬 */
-    flex-direction: row; /* default: row */
-    justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+    
 }
 #main_name{
     color: black;
