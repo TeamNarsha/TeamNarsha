@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>NARSHA</title>
-        <link rel="stylesheet" href={% static 'css/bootstrap.min.css' %} type="text/css">
+        <link rel="stylesheet" href={% static 'css/bootstrap_min.css' %} type="text/css">
         <link rel="stylesheet" href= {% static 'css/narsha.css' %} type="text/css">
     </head>
     <body>
@@ -31,16 +31,16 @@
                 <div class="col-6">
                     <br><br><br><br><br><br><br>
                     <div class="box" style="background: #ffffff;">
-                        <img class="profile" src="{{ post.head_image.url}}">
+                        <img class="profile" src="{{ post.head_image.url }}">
                     </div>
                 </div>
                 <div class="col-6">
                     <hr>
                     <br><br><br><br><br><br><br><br>
                     <br><br><br>
-                    <h3 id="main_name">                {{post.name}}의 프로필</h3>
-                    <pre class="self_simple">          "   {{post.simple}}   "</pre>
-                    <p class="github">           GitHub <i>{{post.gh}}</i> </p><br><br>
+                    <h3 id="main_name">                {{ post.abcd }}의 프로필</h3>
+                    <pre class="self_simple">          "   {{ post.simple }}   "</pre>
+                    <p class="github">           GitHub <i>{{ post.gh }}</i> </p><br><br>
                     <br><br><br><br><br><br><br><br>
                     <hr>
                 </div>
@@ -64,21 +64,21 @@
             <div class="row my-13">
                 <h3 class="small_title">AVAILABLITY</h3>        
             </div>
-            <p>{{post.ability}}</p>
+            <p>{{ post.ability }}</p>
             
         </div>
         <div class="container">
             <div class="row my-13">
                 <h3 class="small_title">WAY OF THE PAST</h3>        
             </div>
-            <p>{{post.past}}</p>
+            <p>{{ post.past }}</p>
             
         </div>
         <div class="container">
             <div class="row my-10">
                 <h3 class="small_title">WAY OF FUTUER</h3>        
             </div>
-            <p>{{post.future}}</p>
+            <p>{{ post.future }}</p>
             <hr>
         </div>
 
