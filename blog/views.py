@@ -11,6 +11,13 @@ def index(request):
             'posts' : posts
         })
 
+def process(request):
+    p_post = Post.objects.all()
+    return render(request,
+        'blog/process.html', 
+        { 'p_post' : p_post}
+    )
+
 def narsha_single_pages(request,value):
     post=Post.objects.get(pk=value)
 
