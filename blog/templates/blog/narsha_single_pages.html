@@ -9,19 +9,21 @@
     </head>
     <body>
         {% load markdown_extras %}
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand" href="#">NARSHA</a>
+              <a class="navbar-brand" href='/blog/'>NARSHA</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Process</a>
-                    {% for p in posts %} 
-                        <a class="nav-link" href='{{ p.get_absolute_url }}'>{{ p.title }}</a>
-                    {% endfor %}
+                    <a class="nav-link" href="/blog/ps/">Process</a>
+                    <a class="nav-link" href="/blog/1/">김한림</a>
+                    <a class="nav-link" href="/blog/2/">김현아</a>
+                    <a class="nav-link" href="/blog/3/">석은수</a>
+                    <a class="nav-link" href="/blog/4/">이소정</a>
+                    <a class="nav-link" href="/blog/5/">정  도</a>
+
                 </div>
               </div>
             </div>
