@@ -7,9 +7,9 @@ body{
     width:500px;
     padding: 10px;
     position:absolute;
+    overflow:hidden;
     top:10px;
     left:10px;
-    overflow:hidden;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -28,6 +28,8 @@ body{
 
 #name{
     text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
 }
 
 #pppp{
@@ -36,10 +38,10 @@ body{
 
 .v-line{
     border-left:solid #000;
-    height:80%;
+    height:60%;
     left: 50%;
     position:absolute;
-    top: 80px;
+    top: 17.5%;
    }
 
 .main2{
