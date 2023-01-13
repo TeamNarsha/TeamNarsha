@@ -106,69 +106,53 @@
 이미지 + 글
 - 아쉬운 점 
 {% endcomment %} -->
-
 <!DOCTYPE html>
 <html>
+    {% load static %}
     <head>
         <title>Process</title>
+        <style> #t {text-align: center;}
+            .s {text-align: lift;}
+
+        </style> 
+        <link rel="stylesheet" href= {% static 'css/narsha.css' %} type="text/css">
     </head>
     <body>
-        <hr>
-        <h3>5조 역할배분</h3><hr/>
-            <p> 김한림<br>
-                <ul>
-                    <li></li>
+        <h1 id = 't'> 팀 NARSHA PROCESS </hr>
+                
+            <h3 class='small_title'>팀 나르샤 역할배분</h3><hr/>
+                <ul class = 's'>
+                    <li>공  통: 전체 설계</li>
+                    <li>김한림: narsha_single_pages.html 작성 및 오류수정, css협업, git설정</li>
+                    <li>김현아: index.html와 blog.CSS 작성</li>
+                    <li>석은수: 설계 모델 작성 및 데이터구조 작성</li>
+                    <li>이소정: index.html, process.html 작성, markdown 설정 및 전체 오류 수정  </li>
+                    <li>정  도: narsha.css, process.html작성 및 html협업</li>
                 </ul>
-                김현아<br>
-                <ul>
-                    <li></li>
-                </ul>
-                석은수<br>
-                <ul>
-                    <li></li>
-                </ul>
-                이소정<br>
-                <ul>
-                    <li></li>
-                </ul>
-                정 도<br>
-                <ul>
-                    <li></li>
-                </ul>
-            </p>
-        <hr>    
-        <h3>설계 모델</h3>
-            <link href="" rel="" type="">
-            
-            <p>
+
+            <h3 class='small_title'>설계 모델</h3>
+
+                <img src={% static 'image\1번.jpg' %} width = 60% height = 60%%>
+
+
+            <h3 class='small_title'>시행 착오</h3>
                 <ol>
-                    <li></li>
-                    <li></li>
-                </ol>
-            </p>
-        
-        <hr>    
-        <h3>시행 착오</h3>
-        <p>
-            <ul>
-                <li></li>
-            </ul>
-        </p>
-        
-        <hr>
-        <h3>아쉬운점</h3>
-        <p>
-            <ul>
-                <li></li>
-            </ul>
-        </p>
-
-
+                    <img src={% static 'image\2번.jpg' %} width = 60% height = 60%%>
+                    <li> 방향성<br>
+                    <li> migration</li>
+                    <li> CSS 설정</li>
+                    <li> markdown</li>
+                    <li> 이미지추가 </li>
+                        <img src={% static 'image\팀.jpg' %} width = 60% height = 60%%>
+                <ol>
+                            
+        </div>
 
     </body>
 
 
 </html>
+
 
 
 
