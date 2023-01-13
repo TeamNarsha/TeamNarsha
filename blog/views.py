@@ -18,6 +18,6 @@ def narsha_single_pages(request,value):
         request,
         'blog/narsha_single_pages.html',
         {
-            'post' : post,
+            'post' : post
         }
     )
