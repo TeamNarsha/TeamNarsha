@@ -7,9 +7,9 @@ body{
     width:500px;
     padding: 10px;
     position:absolute;
+    overflow:hidden;
     top:10px;
     left:10px;
-    overflow:hidden;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -17,13 +17,32 @@ body{
 
 }
 
+.box {
+    width: 300px;
+    height: 300px; 
+    border-radius: 70%;
+    overflow: hidden;
+    top:50%; left:50%;
+    margin-top:-20px; margin-left:100px; 
+}
+
 #name{
     text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
 }
 
 #pppp{
     text-align: center;
 }
+
+.v-line{
+    border-left:solid #000;
+    height:60%;
+    left: 50%;
+    position:absolute;
+    top: 17.5%;
+   }
 
 .main2{
     width:40%;
@@ -35,8 +54,8 @@ body{
     overflow:hidden;
     text-align: center;
     margin-top: 10%;
-    margin-left: 40%;
-    margin-right: 10%;
+    margin-left: 50%;
+    margin-right: 5%;
 }
 
 .bt{
@@ -45,5 +64,8 @@ body{
     border: 0;
     padding: 20px;
     border-radius: 15px;
+    vertical-align:middle;
+    
     
 }
+
