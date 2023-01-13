@@ -17,6 +17,15 @@ body{
 
 }
 
+.box {
+    width: 300px;
+    height: 300px; 
+    border-radius: 70%;
+    overflow: hidden;
+    top:50%; left:50%;
+    margin-top:-20px; margin-left:100px; 
+}
+
 #name{
     text-align: center;
 }
@@ -24,6 +33,14 @@ body{
 #pppp{
     text-align: center;
 }
+
+.v-line{
+    border-left:solid #000;
+    height:80%;
+    left: 50%;
+    position:absolute;
+    top: 80px;
+   }
 
 .main2{
     width:40%;
@@ -35,8 +52,8 @@ body{
     overflow:hidden;
     text-align: center;
     margin-top: 10%;
-    margin-left: 40%;
-    margin-right: 10%;
+    margin-left: 50%;
+    margin-right: 5%;
 }
 
 .bt{
@@ -45,5 +62,8 @@ body{
     border: 0;
     padding: 20px;
     border-radius: 15px;
+    vertical-align:middle;
+    
     
 }
+
